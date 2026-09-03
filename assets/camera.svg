@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-label="Compact camera">
+  <defs><linearGradient id="c" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#33413e"/><stop offset="1" stop-color="#17201e"/></linearGradient></defs>
+  <path d="M73 91h274c19 0 34 15 34 34v133c0 19-15 34-34 34H73c-19 0-34-15-34-34V125c0-19 15-34 34-34z" fill="url(#c)"/>
+  <path d="M113 91l24-43h99l27 43z" fill="#26322f"/>
+  <circle cx="221" cy="190" r="78" fill="#101715" stroke="#77827e" stroke-width="9"/>
+  <circle cx="221" cy="190" r="55" fill="#253f49"/><circle cx="221" cy="190" r="32" fill="#102932"/><circle cx="205" cy="174" r="10" fill="#8ab9c2" opacity=".65"/>
+  <rect x="72" y="117" width="53" height="26" rx="7" fill="#e7e1d7"/><circle cx="336" cy="127" r="10" fill="#ff6b4a"/>
+</svg>
+
