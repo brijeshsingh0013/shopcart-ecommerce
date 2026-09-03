@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-label="Wireless mouse">
+  <defs><linearGradient id="m" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f4f0"/><stop offset="1" stop-color="#bdc5c1"/></linearGradient></defs>
+  <path d="M210 24c-79 0-126 60-126 139 0 85 49 137 126 137s126-52 126-137C336 84 289 24 210 24z" fill="url(#m)" stroke="#7f8a85" stroke-width="5"/>
+  <path d="M210 27v101" stroke="#838d89" stroke-width="5"/><path d="M87 139h246" stroke="#909a96" stroke-width="4"/>
+  <rect x="197" y="58" width="26" height="54" rx="13" fill="#33423e"/><rect x="205" y="67" width="10" height="19" rx="5" fill="#91a19b"/>
+</svg>
+
