@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-label="Portable speaker">
+  <defs><linearGradient id="s" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3f504a"/><stop offset="1" stop-color="#18231f"/></linearGradient><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="6" cy="6" r="2" fill="#82928c"/></pattern></defs>
+  <rect x="82" y="40" width="256" height="240" rx="70" fill="url(#s)"/>
+  <rect x="102" y="60" width="216" height="200" rx="55" fill="url(#dots)"/>
+  <circle cx="210" cy="160" r="70" fill="#1c2924" stroke="#75877f" stroke-width="5"/><circle cx="210" cy="160" r="44" fill="#30413b"/><circle cx="210" cy="160" r="18" fill="#ff6b45"/>
+  <path d="M173 71h74" stroke="#d9e5e0" stroke-width="6" stroke-linecap="round" opacity=".6"/>
+</svg>
+
