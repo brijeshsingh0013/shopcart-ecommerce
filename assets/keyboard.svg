@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-label="Mechanical keyboard">
+  <defs><linearGradient id="k" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#43504c"/><stop offset="1" stop-color="#1a2421"/></linearGradient></defs>
+  <path d="M55 89h310l25 151c2 14-8 25-22 25H52c-14 0-24-11-22-25z" fill="url(#k)"/>
+  <g fill="#d9dfdc">
+    <path d="M68 117h34v26H68zm44 0h34v26h-34zm44 0h34v26h-34zm44 0h34v26h-34zm44 0h34v26h-34zm44 0h34v26h-34zm44 0h24v26h-24z"/>
+    <path d="M62 153h38v26H62zm48 0h34v26h-34zm44 0h34v26h-34zm44 0h34v26h-34zm44 0h34v26h-34zm44 0h34v26h-34zm44 0h34v26h-34z"/>
+    <path d="M56 189h47v27H56zm57 0h34v27h-34zm44 0h34v27h-34zm44 0h34v27h-34zm44 0h34v27h-34zm44 0h34v27h-34zm44 0h34v27h-34z"/>
+    <path d="M51 226h61v25H51zm72 0h174v25H123zm185 0h60v25h-60z"/>
+  </g>
+  <circle cx="351" cy="103" r="5" fill="#65e7b2"/>
+</svg>
+
