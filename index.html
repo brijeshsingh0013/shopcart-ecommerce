@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ShopCart responsive e-commerce storefront built with HTML, CSS and JavaScript" />
+  <title>ShopCart — Everyday tech, thoughtfully selected</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">Free delivery above ₹999 · Easy 7-day returns</div>
+  <header class="site-header">
+    <a href="#" class="brand" aria-label="ShopCart home"><span>S</span>ShopCart</a>
+    <nav aria-label="Main navigation">
+      <a href="#products">Shop</a>
+      <a href="#benefits">Why us</a>
+      <a href="#newsletter">Offers</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="searchFocus" aria-label="Search products">⌕</button>
+      <button class="cart-button" id="openCart" aria-label="Open shopping cart">
+        Cart <span id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">New season · Smarter setup</p>
+        <h1>Useful tech.<br><em>Zero clutter.</em></h1>
+        <p>Thoughtfully selected everyday devices that look good, work beautifully and fit your budget.</p>
+        <a class="primary-button" href="#products">Explore collection <span>→</span></a>
+        <div class="trust-row">
+          <div><strong>4.8/5</strong><small>Customer rating</small></div>
+          <div><strong>12k+</strong><small>Happy shoppers</small></div>
+          <div><strong>24 hr</strong><small>Dispatch promise</small></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Featured wireless headphones illustration">
+        <span class="art-label">Featured</span>
+        <img src="assets/headphones.svg" alt="Midnight wireless headphones" />
+        <div class="floating-card"><small>Pulse Pro</small><strong>₹4,999</strong></div>
+      </div>
+    </section>
+
+    <section class="benefits" id="benefits" aria-label="Shopping benefits">
+      <article><span>↗</span><div><strong>Fast delivery</strong><small>Dispatched within 24 hours</small></div></article>
+      <article><span>✓</span><div><strong>Quality checked</strong><small>Every product personally tested</small></div></article>
+      <article><span>↺</span><div><strong>Easy returns</strong><small>Simple 7-day return policy</small></div></article>
+    </section>
+
+    <section class="catalog" id="products">
+      <div class="section-heading">
+        <div><p class="eyebrow">Curated essentials</p><h2>Find your next favourite</h2></div>
+        <p>Clean design, reliable performance and honest pricing.</p>
+      </div>
+
+      <div class="catalog-toolbar">
+        <div class="category-list" id="categoryList" aria-label="Product categories"></div>
+        <div class="filters">
+          <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search products" /></label>
+          <select id="sortSelect" aria-label="Sort products">
+            <option value="featured">Featured</option>
+            <option value="low">Price: low to high</option>
+            <option value="high">Price: high to low</option>
+            <option value="rating">Top rated</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="product-grid" id="productGrid"></div>
+      <p class="empty-state" id="emptyState" hidden>No matching products found. Try another search.</p>
+    </section>
+
+    <section class="newsletter" id="newsletter">
+      <div><p class="eyebrow">Members get more</p><h2>Good finds, before everyone else.</h2></div>
+      <form id="newsletterForm"><input type="email" required placeholder="Your email address" aria-label="Email address" /><button>Join the list →</button></form>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#" class="brand"><span>S</span>ShopCart</a>
+    <p>Designed and developed by Brijesh Kumar Singh.</p>
+    <p>© <span id="year"></span> ShopCart</p>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-header"><div><p class="eyebrow">Your selection</p><h2>Shopping cart</h2></div><button id="closeCart" aria-label="Close cart">×</button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <div><span>Subtotal</span><strong id="cartTotal">₹0</strong></div>
+      <small>Taxes and delivery calculated at checkout.</small>
+      <button id="checkoutButton" class="checkout-button">Proceed to checkout →</button>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
+
